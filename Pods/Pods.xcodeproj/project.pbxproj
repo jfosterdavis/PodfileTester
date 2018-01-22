@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F32F560975895976E85C16078A7856 /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C233A11A8A41D4A5FE93E78FB249491F /* Gauge.swift */; };
+		08A83EF2C34C4340DA8ECC3116B1FB6C /* ZMGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858738FD63ABBE3053F1C864705E36F5 /* ZMGaugeView.swift */; };
+		129658B22B5400E82176E11E727DD645 /* GaugeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0539E7EB86F3F8EE6D8FB810D2D25C /* GaugeLine.swift */; };
+		1BF90C1B1B15F6379BB116DF5BD99BC4 /* Gauge+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1BC827A07918922E3C1B0B90F0931 /* Gauge+Animations.swift */; };
+		34D1011FF92754F541568BDD802991EB /* ZMGauge.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0918AA098FB34A95B8BAF16A87210 /* ZMGauge.xib */; };
+		45B1E58CA73ED11C40CF8464704FA3BE /* UIColor+Blend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA7613D4AFF093EED61AEFE4DD518F /* UIColor+Blend.swift */; };
+		48B15D0B0D855B5F3DBFC0AD9EFC0478 /* CAShapeLayer+oval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9E1659BA17FE9182AA9937DAA9E35 /* CAShapeLayer+oval.swift */; };
+		5550C3C47BAB4A88F12E5031DE8E56C2 /* Pods-PodfileTester-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6C68E6B1A759728A4BF10D788E6977 /* Pods-PodfileTester-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6391CDCB38F2381231D7FD7610FE529B /* GaugeHalf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69F7A61BA0D7B0C8DCD370B8A46D9F /* GaugeHalf.swift */; };
+		6E0F68AD80B53D6E948C38A5568ABDF6 /* GaugeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8365773E5BA271CB4561ACA6CCA2A7E /* GaugeKit.framework */; };
+		7B5A8233844D066AB5D92DC91968868E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AEF982E012B2D5943242A65BBE6CC4 /* Foundation.framework */; };
+		7DBFE6AD481A98C5827100955B9D1591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AEF982E012B2D5943242A65BBE6CC4 /* Foundation.framework */; };
+		7DC13E97AD681D39513CF8D4F801460B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902B5B0FE6D3DD692FC9A2CB2950736F /* UIKit.framework */; };
+		83BAD91284F460927432DAB7F27C4110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AEF982E012B2D5943242A65BBE6CC4 /* Foundation.framework */; };
+		86D51A6113F856370C984E10C7995865 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D16F0B5FFA945B03123AA7E0C3C38D3 /* QuartzCore.framework */; };
+		919D1421C1234A54B5512ADFDD5AEE44 /* GaugeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C57400B66AADF7A29C6AE8F96137AE /* GaugeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DBC9BBE007724859996675C4FF1B1D5 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 883834A22A547BB308182A9698D973E3 /* Info.plist */; };
+		A46E14CFFAEE085478659EFCF35D4F0E /* ZMPieTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51B6C6080382B20188E824B23B6695 /* ZMPieTimerView.swift */; };
+		A751D79856F03A75D9F2948B0E37528D /* Pods-PodfileTester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF4793DE731EB27D1FB5CD9E6FC5F0 /* Pods-PodfileTester-dummy.m */; };
+		BD2E2348428CD8C9C2C794AE65D49BA9 /* ZMAppFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86161A66B7D775F7DFDC3A6339E8F784 /* ZMAppFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEEC391420C2E1E5B36A99E37C7941FE /* ZMAppFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C78F0EA1008C13C135B39437A198279C /* ZMAppFoundation-dummy.m */; };
+		E4BE531B31B4F75633072124498B3767 /* GaugeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF21910D7748FF13DCD7761FF13777 /* GaugeCircle.swift */; };
+		EB2586672ECB9EE8154E40FA35B54746 /* GaugeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBD432A7B2A3FDA89668B63AC90B6 /* GaugeKit-dummy.m */; };
+		F3B2661CDC5CE1119D5DC61A56C5EAB7 /* ZMXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017818ACEBF3C59245695C975DC2301 /* ZMXibView.swift */; };
+		FC2082EDCB875F586DA6BEDD52974415 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC5678CC07C33D48C7D52C6994094D /* ReplaceMe.swift */; };
+		FD68B0CD84FFFF658C849CF73DC06311 /* GaugeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 858C16A3BCE34BC37E70DFA1FE690586 /* GaugeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E5FEF0C0771315ED0EBB8EF18FED9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3299858059978FD51F08489E89998F;
+			remoteInfo = GaugeKit;
+		};
+		72564960574C50FF4563AFCF5C01E661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFE10F53117D97EC12C8BCBC6AD23C7;
+			remoteInfo = ZMAppFoundation;
+		};
+		EA2C1E7A6275872786C2B841B0300210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3299858059978FD51F08489E89998F;
+			remoteInfo = GaugeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8E20CC2BBF6BFC4DFAE31E30AA93A7 /* Pods-PodfileTester-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodfileTester-frameworks.sh"; sourceTree = "<group>"; };
+		34AEF982E012B2D5943242A65BBE6CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D16F0B5FFA945B03123AA7E0C3C38D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5660AA722DF3F91ED1A7657DFB0C8352 /* GaugeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GaugeKit.xcconfig; sourceTree = "<group>"; };
+		5D59DA6D9880F0895AEBCF9DE15423D5 /* Pods_PodfileTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PodfileTester.framework; path = "Pods-PodfileTester.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62259F53B20C8E5104CBF94A3DCEEABE /* ZMAppFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZMAppFoundation.modulemap; sourceTree = "<group>"; };
+		63F586E42C841E733C4CAC507BDBFD9C /* GaugeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GaugeKit.modulemap; sourceTree = "<group>"; };
+		668FBD432A7B2A3FDA89668B63AC90B6 /* GaugeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GaugeKit-dummy.m"; sourceTree = "<group>"; };
+		68F3CA3ED3D34F24CA7592E632CC738C /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GaugeKit.framework; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A69F7A61BA0D7B0C8DCD370B8A46D9F /* GaugeHalf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeHalf.swift; path = GaugeKit/GaugeHalf.swift; sourceTree = "<group>"; };
+		7A6C68E6B1A759728A4BF10D788E6977 /* Pods-PodfileTester-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodfileTester-umbrella.h"; sourceTree = "<group>"; };
+		7AB0918AA098FB34A95B8BAF16A87210 /* ZMGauge.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMGauge.xib; path = ZMAppFoundation/Classes/ZMGauge.xib; sourceTree = "<group>"; };
+		7B3C05A14F6947CD8D8B4232840A6F55 /* Pods-PodfileTester-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodfileTester-resources.sh"; sourceTree = "<group>"; };
+		7CAA7613D4AFF093EED61AEFE4DD518F /* UIColor+Blend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Blend.swift"; path = "GaugeKit/UIColor+Blend.swift"; sourceTree = "<group>"; };
+		7FE9E1659BA17FE9182AA9937DAA9E35 /* CAShapeLayer+oval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+oval.swift"; path = "GaugeKit/CAShapeLayer+oval.swift"; sourceTree = "<group>"; };
+		858738FD63ABBE3053F1C864705E36F5 /* ZMGaugeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMGaugeView.swift; path = ZMAppFoundation/Classes/ZMGaugeView.swift; sourceTree = "<group>"; };
+		858C16A3BCE34BC37E70DFA1FE690586 /* GaugeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GaugeKit.h; path = GaugeKit/GaugeKit.h; sourceTree = "<group>"; };
+		86161A66B7D775F7DFDC3A6339E8F784 /* ZMAppFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMAppFoundation-umbrella.h"; sourceTree = "<group>"; };
+		883834A22A547BB308182A9698D973E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = GaugeKit/Info.plist; sourceTree = "<group>"; };
+		902B5B0FE6D3DD692FC9A2CB2950736F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C4A003C137A6F0FAF9D01780652C05F /* Pods-PodfileTester-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodfileTester-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F0539E7EB86F3F8EE6D8FB810D2D25C /* GaugeLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeLine.swift; path = GaugeKit/GaugeLine.swift; sourceTree = "<group>"; };
+		A1C57400B66AADF7A29C6AE8F96137AE /* GaugeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GaugeKit-umbrella.h"; sourceTree = "<group>"; };
+		A6CC5678CC07C33D48C7D52C6994094D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZMAppFoundation/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B2B1BC827A07918922E3C1B0B90F0931 /* Gauge+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Gauge+Animations.swift"; path = "GaugeKit/Gauge+Animations.swift"; sourceTree = "<group>"; };
+		B8175E4DD048F84F756C20586501447C /* Pods-PodfileTester-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodfileTester-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE22A3AF40B31F05BDF2E0351A463EFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C233A11A8A41D4A5FE93E78FB249491F /* Gauge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gauge.swift; path = GaugeKit/Gauge.swift; sourceTree = "<group>"; };
+		C78F0EA1008C13C135B39437A198279C /* ZMAppFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMAppFoundation-dummy.m"; sourceTree = "<group>"; };
+		CFF134683FD577F764C939F15C80BCB6 /* Pods-PodfileTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodfileTester.release.xcconfig"; sourceTree = "<group>"; };
+		D017818ACEBF3C59245695C975DC2301 /* ZMXibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMXibView.swift; path = ZMAppFoundation/Classes/ZMXibView.swift; sourceTree = "<group>"; };
+		D229E1AD35CD34BC293F81DBC340E26C /* ZMAppFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMAppFoundation-prefix.pch"; sourceTree = "<group>"; };
+		D272C5B2BF14D89683DECA78B24DFBCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6A50A9214B580A15487D7E4BD8655F /* ZMAppFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMAppFoundation.xcconfig; sourceTree = "<group>"; };
+		E9DF4793DE731EB27D1FB5CD9E6FC5F0 /* Pods-PodfileTester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodfileTester-dummy.m"; sourceTree = "<group>"; };
+		EE58423B726E8F6E3F3F5BAB0AF094E9 /* ZMAppFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMAppFoundation.framework; path = ZMAppFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1ED5DCB8FDEDF3221787B7F8AC40800 /* Pods-PodfileTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodfileTester.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CF4C4E82B2A38F927814F33173B1F9 /* GaugeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GaugeKit-prefix.pch"; sourceTree = "<group>"; };
+		F8365773E5BA271CB4561ACA6CCA2A7E /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE85E2C8BD49C75D8336CEDDB09B95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFF21910D7748FF13DCD7761FF13777 /* GaugeCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeCircle.swift; path = GaugeKit/GaugeCircle.swift; sourceTree = "<group>"; };
+		FDE3B89330A3205F058961FA5E8C5C12 /* Pods-PodfileTester.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PodfileTester.modulemap"; sourceTree = "<group>"; };
+		FF51B6C6080382B20188E824B23B6695 /* ZMPieTimerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMPieTimerView.swift; path = ZMAppFoundation/Classes/ZMPieTimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6597979BA422CEB61D40B2769F669583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5A8233844D066AB5D92DC91968868E /* Foundation.framework in Frameworks */,
+				86D51A6113F856370C984E10C7995865 /* QuartzCore.framework in Frameworks */,
+				7DC13E97AD681D39513CF8D4F801460B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F32310723B912FAFE6091B9613D3E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBFE6AD481A98C5827100955B9D1591 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33796A86496C092E75F6E41D9F744A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BAD91284F460927432DAB7F27C4110 /* Foundation.framework in Frameworks */,
+				6E0F68AD80B53D6E948C38A5568ABDF6 /* GaugeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B6AA7421001383B182B7A254C054BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31E272C517E219567D5C929CF7D342A8 /* Pods-PodfileTester */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1B0C1DE213CA7E193ACEAA68E6E1BD70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F3CA3ED3D34F24CA7592E632CC738C /* GaugeKit.framework */,
+				5D59DA6D9880F0895AEBCF9DE15423D5 /* Pods_PodfileTester.framework */,
+				EE58423B726E8F6E3F3F5BAB0AF094E9 /* ZMAppFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31E272C517E219567D5C929CF7D342A8 /* Pods-PodfileTester */ = {
+			isa = PBXGroup;
+			children = (
+				FBE85E2C8BD49C75D8336CEDDB09B95D /* Info.plist */,
+				FDE3B89330A3205F058961FA5E8C5C12 /* Pods-PodfileTester.modulemap */,
+				9C4A003C137A6F0FAF9D01780652C05F /* Pods-PodfileTester-acknowledgements.markdown */,
+				B8175E4DD048F84F756C20586501447C /* Pods-PodfileTester-acknowledgements.plist */,
+				E9DF4793DE731EB27D1FB5CD9E6FC5F0 /* Pods-PodfileTester-dummy.m */,
+				0A8E20CC2BBF6BFC4DFAE31E30AA93A7 /* Pods-PodfileTester-frameworks.sh */,
+				7B3C05A14F6947CD8D8B4232840A6F55 /* Pods-PodfileTester-resources.sh */,
+				7A6C68E6B1A759728A4BF10D788E6977 /* Pods-PodfileTester-umbrella.h */,
+				F1ED5DCB8FDEDF3221787B7F8AC40800 /* Pods-PodfileTester.debug.xcconfig */,
+				CFF134683FD577F764C939F15C80BCB6 /* Pods-PodfileTester.release.xcconfig */,
+			);
+			name = "Pods-PodfileTester";
+			path = "Target Support Files/Pods-PodfileTester";
+			sourceTree = "<group>";
+		};
+		5AD9793CAD8E08711363485A2FD60E09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F586E42C841E733C4CAC507BDBFD9C /* GaugeKit.modulemap */,
+				5660AA722DF3F91ED1A7657DFB0C8352 /* GaugeKit.xcconfig */,
+				668FBD432A7B2A3FDA89668B63AC90B6 /* GaugeKit-dummy.m */,
+				F6CF4C4E82B2A38F927814F33173B1F9 /* GaugeKit-prefix.pch */,
+				A1C57400B66AADF7A29C6AE8F96137AE /* GaugeKit-umbrella.h */,
+				D272C5B2BF14D89683DECA78B24DFBCA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GaugeKit";
+			sourceTree = "<group>";
+		};
+		75E7BF44195D01662F269FE703EB4A62 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				34AEF982E012B2D5943242A65BBE6CC4 /* Foundation.framework */,
+				4D16F0B5FFA945B03123AA7E0C3C38D3 /* QuartzCore.framework */,
+				902B5B0FE6D3DD692FC9A2CB2950736F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C74E75658402A4FFC2601F872CC7861C /* Frameworks */,
+				90704E8BD6EEDFB085861DBC2513D3DB /* Pods */,
+				1B0C1DE213CA7E193ACEAA68E6E1BD70 /* Products */,
+				15B6AA7421001383B182B7A254C054BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90704E8BD6EEDFB085861DBC2513D3DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE60C04EF7C87DE5E41D3B9BE5C45435 /* GaugeKit */,
+				B784D04A9FA856221D40709A01EF3D3E /* ZMAppFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9500FF9146E76097FEE6461ADAA30A5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE22A3AF40B31F05BDF2E0351A463EFB /* Info.plist */,
+				62259F53B20C8E5104CBF94A3DCEEABE /* ZMAppFoundation.modulemap */,
+				DA6A50A9214B580A15487D7E4BD8655F /* ZMAppFoundation.xcconfig */,
+				C78F0EA1008C13C135B39437A198279C /* ZMAppFoundation-dummy.m */,
+				D229E1AD35CD34BC293F81DBC340E26C /* ZMAppFoundation-prefix.pch */,
+				86161A66B7D775F7DFDC3A6339E8F784 /* ZMAppFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZMAppFoundation";
+			sourceTree = "<group>";
+		};
+		B784D04A9FA856221D40709A01EF3D3E /* ZMAppFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				A6CC5678CC07C33D48C7D52C6994094D /* ReplaceMe.swift */,
+				7AB0918AA098FB34A95B8BAF16A87210 /* ZMGauge.xib */,
+				858738FD63ABBE3053F1C864705E36F5 /* ZMGaugeView.swift */,
+				FF51B6C6080382B20188E824B23B6695 /* ZMPieTimerView.swift */,
+				D017818ACEBF3C59245695C975DC2301 /* ZMXibView.swift */,
+				9500FF9146E76097FEE6461ADAA30A5B /* Support Files */,
+			);
+			name = ZMAppFoundation;
+			path = ZMAppFoundation;
+			sourceTree = "<group>";
+		};
+		C74E75658402A4FFC2601F872CC7861C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8365773E5BA271CB4561ACA6CCA2A7E /* GaugeKit.framework */,
+				75E7BF44195D01662F269FE703EB4A62 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE60C04EF7C87DE5E41D3B9BE5C45435 /* GaugeKit */ = {
+			isa = PBXGroup;
+			children = (
+				7FE9E1659BA17FE9182AA9937DAA9E35 /* CAShapeLayer+oval.swift */,
+				C233A11A8A41D4A5FE93E78FB249491F /* Gauge.swift */,
+				B2B1BC827A07918922E3C1B0B90F0931 /* Gauge+Animations.swift */,
+				FBFF21910D7748FF13DCD7761FF13777 /* GaugeCircle.swift */,
+				6A69F7A61BA0D7B0C8DCD370B8A46D9F /* GaugeHalf.swift */,
+				858C16A3BCE34BC37E70DFA1FE690586 /* GaugeKit.h */,
+				9F0539E7EB86F3F8EE6D8FB810D2D25C /* GaugeLine.swift */,
+				883834A22A547BB308182A9698D973E3 /* Info.plist */,
+				7CAA7613D4AFF093EED61AEFE4DD518F /* UIColor+Blend.swift */,
+				5AD9793CAD8E08711363485A2FD60E09 /* Support Files */,
+			);
+			name = GaugeKit;
+			path = GaugeKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		573911F2E5E105730A9A1B1E25042520 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2E2348428CD8C9C2C794AE65D49BA9 /* ZMAppFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC1104AC56AC15950342987727D2DC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5550C3C47BAB4A88F12E5031DE8E56C2 /* Pods-PodfileTester-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C8C47B669EE728C47674039A8739E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919D1421C1234A54B5512ADFDD5AEE44 /* GaugeKit-umbrella.h in Headers */,
+				FD68B0CD84FFFF658C849CF73DC06311 /* GaugeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AFE10F53117D97EC12C8BCBC6AD23C7 /* ZMAppFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A29BFE0D6489C4739929B8E91A243E7 /* Build configuration list for PBXNativeTarget "ZMAppFoundation" */;
+			buildPhases = (
+				970363E81DF2CD0D48450DA85211F2EF /* Sources */,
+				C33796A86496C092E75F6E41D9F744A1 /* Frameworks */,
+				573911F2E5E105730A9A1B1E25042520 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC346C16B1F122771DAADB39A4747A24 /* PBXTargetDependency */,
+			);
+			name = ZMAppFoundation;
+			productName = ZMAppFoundation;
+			productReference = EE58423B726E8F6E3F3F5BAB0AF094E9 /* ZMAppFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DC8A6CC4F254DF93827A3C842D8C003 /* Pods-PodfileTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11915F6F2CCA1FC27F4843D4F7276913 /* Build configuration list for PBXNativeTarget "Pods-PodfileTester" */;
+			buildPhases = (
+				3E9B19DD66532690911CD4080EE9A565 /* Sources */,
+				7F32310723B912FAFE6091B9613D3E90 /* Frameworks */,
+				6CC1104AC56AC15950342987727D2DC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A00AA0190F7FB58EAD1E029145B51BD /* PBXTargetDependency */,
+				C4618675E51C3FC9D984FF2E3090E551 /* PBXTargetDependency */,
+			);
+			name = "Pods-PodfileTester";
+			productName = "Pods-PodfileTester";
+			productReference = 5D59DA6D9880F0895AEBCF9DE15423D5 /* Pods_PodfileTester.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA3299858059978FD51F08489E89998F /* GaugeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDDAB2A8636D4C75CB7C400A8497C4D /* Build configuration list for PBXNativeTarget "GaugeKit" */;
+			buildPhases = (
+				AC7F5ACA8AAFC2D15C586F8BD90B287C /* Sources */,
+				6597979BA422CEB61D40B2769F669583 /* Frameworks */,
+				D4C8C47B669EE728C47674039A8739E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaugeKit;
+			productName = GaugeKit;
+			productReference = 68F3CA3ED3D34F24CA7592E632CC738C /* GaugeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1B0C1DE213CA7E193ACEAA68E6E1BD70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3299858059978FD51F08489E89998F /* GaugeKit */,
+				6DC8A6CC4F254DF93827A3C842D8C003 /* Pods-PodfileTester */,
+				1AFE10F53117D97EC12C8BCBC6AD23C7 /* ZMAppFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9B19DD66532690911CD4080EE9A565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A751D79856F03A75D9F2948B0E37528D /* Pods-PodfileTester-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970363E81DF2CD0D48450DA85211F2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2082EDCB875F586DA6BEDD52974415 /* ReplaceMe.swift in Sources */,
+				BEEC391420C2E1E5B36A99E37C7941FE /* ZMAppFoundation-dummy.m in Sources */,
+				34D1011FF92754F541568BDD802991EB /* ZMGauge.xib in Sources */,
+				08A83EF2C34C4340DA8ECC3116B1FB6C /* ZMGaugeView.swift in Sources */,
+				A46E14CFFAEE085478659EFCF35D4F0E /* ZMPieTimerView.swift in Sources */,
+				F3B2661CDC5CE1119D5DC61A56C5EAB7 /* ZMXibView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7F5ACA8AAFC2D15C586F8BD90B287C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B15D0B0D855B5F3DBFC0AD9EFC0478 /* CAShapeLayer+oval.swift in Sources */,
+				1BF90C1B1B15F6379BB116DF5BD99BC4 /* Gauge+Animations.swift in Sources */,
+				00F32F560975895976E85C16078A7856 /* Gauge.swift in Sources */,
+				E4BE531B31B4F75633072124498B3767 /* GaugeCircle.swift in Sources */,
+				6391CDCB38F2381231D7FD7610FE529B /* GaugeHalf.swift in Sources */,
+				EB2586672ECB9EE8154E40FA35B54746 /* GaugeKit-dummy.m in Sources */,
+				129658B22B5400E82176E11E727DD645 /* GaugeLine.swift in Sources */,
+				9DBC9BBE007724859996675C4FF1B1D5 /* Info.plist in Sources */,
+				45B1E58CA73ED11C40CF8464704FA3BE /* UIColor+Blend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A00AA0190F7FB58EAD1E029145B51BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GaugeKit;
+			target = EA3299858059978FD51F08489E89998F /* GaugeKit */;
+			targetProxy = 2E5FEF0C0771315ED0EBB8EF18FED9AE /* PBXContainerItemProxy */;
+		};
+		C4618675E51C3FC9D984FF2E3090E551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZMAppFoundation;
+			target = 1AFE10F53117D97EC12C8BCBC6AD23C7 /* ZMAppFoundation */;
+			targetProxy = 72564960574C50FF4563AFCF5C01E661 /* PBXContainerItemProxy */;
+		};
+		DC346C16B1F122771DAADB39A4747A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GaugeKit;
+			target = EA3299858059978FD51F08489E89998F /* GaugeKit */;
+			targetProxy = EA2C1E7A6275872786C2B841B0300210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187C5761490CB16FC1746B14D867D9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5660AA722DF3F91ED1A7657DFB0C8352 /* GaugeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GaugeKit/GaugeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GaugeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GaugeKit/GaugeKit.modulemap";
+				PRODUCT_NAME = GaugeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31783609A36D91A50B03FD431479A8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5660AA722DF3F91ED1A7657DFB0C8352 /* GaugeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GaugeKit/GaugeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GaugeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GaugeKit/GaugeKit.modulemap";
+				PRODUCT_NAME = GaugeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3EDA5E93CC0A3ABD4322360451D97A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6A50A9214B580A15487D7E4BD8655F /* ZMAppFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMAppFoundation/ZMAppFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZMAppFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZMAppFoundation/ZMAppFoundation.modulemap";
+				PRODUCT_NAME = ZMAppFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB00D879353C140522BC0A9907612694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1ED5DCB8FDEDF3221787B7F8AC40800 /* Pods-PodfileTester.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PodfileTester/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PodfileTester/Pods-PodfileTester.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PodfileTester;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC2D22FD181F8ADE35633489C8816FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6A50A9214B580A15487D7E4BD8655F /* ZMAppFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMAppFoundation/ZMAppFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZMAppFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZMAppFoundation/ZMAppFoundation.modulemap";
+				PRODUCT_NAME = ZMAppFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB8F1A1540E5D4E3A614A7B29AD959C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF134683FD577F764C939F15C80BCB6 /* Pods-PodfileTester.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PodfileTester/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PodfileTester/Pods-PodfileTester.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PodfileTester;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11915F6F2CCA1FC27F4843D4F7276913 /* Build configuration list for PBXNativeTarget "Pods-PodfileTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB00D879353C140522BC0A9907612694 /* Debug */,
+				FB8F1A1540E5D4E3A614A7B29AD959C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A29BFE0D6489C4739929B8E91A243E7 /* Build configuration list for PBXNativeTarget "ZMAppFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDA5E93CC0A3ABD4322360451D97A94 /* Debug */,
+				DC2D22FD181F8ADE35633489C8816FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDDAB2A8636D4C75CB7C400A8497C4D /* Build configuration list for PBXNativeTarget "GaugeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31783609A36D91A50B03FD431479A8F2 /* Debug */,
+				187C5761490CB16FC1746B14D867D9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

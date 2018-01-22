@@ -1,0 +1,15 @@
+PODS:
+  - GaugeKit (0.4.5)
+  - ZMAppFoundation (0.1.1):
+    - GaugeKit
+
+DEPENDENCIES:
+  - ZMAppFoundation
+
+SPEC CHECKSUMS:
+  GaugeKit: 7872069a8aed2d26b17fca110fe1ab59722f8a33
+  ZMAppFoundation: b6eefc20eda8c9b92773d871275b185bc25bb103
+
+PODFILE CHECKSUM: a2e04921ad507559b0747741e4858f2d4007f76b
+
+COCOAPODS: 1.4.0
